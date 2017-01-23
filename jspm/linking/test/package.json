@@ -1,0 +1,15 @@
+{
+  "name": "linking-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "jspm": "beta"
+  },
+  "jspm": {
+    "name": "linking-test",
+    "main": "linking-test.js",
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.19"
+    }
+  }
+}
